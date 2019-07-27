@@ -1,7 +1,8 @@
 # artist-classification-with-ML
-Train an "off-the-shelf" deep image network with color images of Impressionist paintings from the web (Seurat, Signac, Monet, Degas, Renoir, ...) for classification of both artist and simple subject matter 
+Goal: Train an "off-the-shelf" deep image network with color images of Impressionist paintings from the web (Seurat, Signac, Monet, Degas, Renoir, ...) for classification of both artist and simple subject matter (as conveyed by titles).  Examine the internal representations and perform statistical tests to see if artists are "best" recognized by low-level features (color, brush stroke, "style") or high-level representations (subjects).  (I and I'm sure others are eager to see the net's internal representations for art.)
 
-Simulation study:  Train an "off-the-shelf" deep image network with color images of Impressionist paintings from the web (Seurat, Signac, Monet, Degas, Renoir, ...) for classification of both artist and simple subject matter (as conveyed by titles).  Examine the internal representations and perform statistical tests to see if artists are "best" recognized by low-level features (color, brush stroke, "style") or high-level representations (subjects).  (I and I'm sure others are eager to see the net's internal representations for art.)
+## Datasets
+* https://www.kaggle.com/ikarus777/best-artworks-of-all-time
 
 ## References
 * [IBM article](https://developer.ibm.com/patterns/classify-art-using-tensorflow-model/) and [code](https://github.com/IBM/tensorflow-kubernetes-art-classification)
